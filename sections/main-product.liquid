@@ -369,7 +369,8 @@
   <strong>
   Product Extra Description
   </strong
-    {{ product.metafields.custom.extra_description }}
+   {{ product.metafields.custom.extra_description | metafield_tag }}
+
   </div>
 {% endif %}
             {%- when 'custom_liquid' -%}
