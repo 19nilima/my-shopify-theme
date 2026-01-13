@@ -3,6 +3,11 @@ header .link--text, .header__menu-item, .header__active-menu-item, .header__icon
     color: #264463 !important;
     font-weight: bold;
 }
+.product-extra-description {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
 footer.footer.color-background-1.gradient.section-footer-padding {
     background: antiquewhite;
 }
